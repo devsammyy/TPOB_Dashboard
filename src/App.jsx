@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import Header from "./components/Header"
-import './styles.css'
+import Header from "./components/header/Header";
+import Form from "./components/form/Form";
+import "./main.css";
 
 function App() {
-  
-  return (
-    <>
-      <Header/>
-      <h1>Holla</h1>
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Form />
+        </>
+    );
 }
 
-export default App
+export default App;
